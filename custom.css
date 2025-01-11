@@ -1,0 +1,39 @@
+.login__panel {
+  height: 400px;
+  margin: 39.5px auto;
+  font-size: 20px;
+  gap: 10px;
+  width: 35%;
+}
+
+.login__content label{
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.login__content input{
+  height: 10px;
+ 
+}
+
+.login__btn {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.questionnare {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  
+}
+
+.questionnare select {
+  height: 40px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

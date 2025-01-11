@@ -29,7 +29,7 @@ body {
 .login__panel {
     display: flex;
     align-items: center;
-    margin: 70px 400px;
+    margin: 64.5px 400px;
     height: 350px;
     border: 1px solid black;
     border-radius: 30px;
