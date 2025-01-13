@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/login.css">
+  <link rel="stylesheet" href="styles/register.css">
+  <title>Forgot Password</title>
+</head>
+<body>
+  <div class="panel__up">
+    <img src="images/QCU_Logo_2019.png" alt="logo" class="logo">
+    <p>SCHOOL CLINIC MANAGEMENT SYSTEM</p>
+  </div>
+
+  <div class="login__panel">
+    <h3>FORGOT PASSWORD</h3>
+    <div class="login__content">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username">
+      <label for="password">New Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your new password">
+      <label for="password">Confirm Password</label>
+      <input type="password" name="password" placeholder="Confirm your new password">
+      <label for="question">Question</label>
+
+      <div class="questionnare">
+        <select name="question" id="">
+          <option value="1">What is your favorite color?</option>
+          <option value="2">What is your favorite food?</option>
+          <option value="3">What is your favorite movie?</option>
+        </select>
+        <input type="text" id="answer" name="answer" placeholder="Enter your answer">
+      </div>
+      <button class="login__btn" id="btn">Save</button>
+      <a href="login.html">Back to Login</a>
+    </div>
+  </div>
+
+  <div class="panel__down"></div>
+</body>
+</html>
